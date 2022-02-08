@@ -24,7 +24,7 @@ body{
      display:inline-block;
      color:rgb(238, 238, 238);
      text-decoration:none;
-     padding:20px; 
+     padding:15px; 
      transition: background .2s;
  }
 
@@ -45,8 +45,8 @@ body{
     display:block;
     margin-left:auto;
     margin-right:auto; 
-    width: 535px;
-    height: 307px;
+    width: 70%;
+    height: 71%;
     
  }
 
@@ -72,11 +72,12 @@ body{
  
  .adjust-img2 {
 
-    width:400px;
-    height: 639px;
+    width:68%;
+    height: 65%;
     display:block;
     margin-right: auto;
     margin-left:auto;
+    
  }
  .quadro {
      border:5px solid rgb(255, 100, 100);
@@ -114,8 +115,8 @@ body{
         
     }
     .align-img {
-        width: 455px;
-        height: 262px;
+        /* width: 455px;
+        height: 262px; */
     }
 
     .container2 {
@@ -132,8 +133,8 @@ body{
 
      .adjust-img2 {
 
-        width:400px;
-        height: 639px;
+        /* width:400px;
+        height: 639px; */
         display:block;
         margin-left:auto;
         margin-right:auto;
@@ -172,5 +173,36 @@ body{
         display:flex;
         flex-direction:column;
     }
+
+    .align-img {
+        width: 455px;
+        height: 262px;
+    }
     
+    .adjust-img2 {
+        width:400px;
+        height: 639px;
+    }
+     
+    
+}
+
+/* CSS PARA alguns celulares específcos*/
+@media screen and (min-width:315px) and (max-width:920px) {
+    
+
+    body {
+        display: flex; 
+        flex-direction: column;
+        /* width: 410px; */
+    }
+
+    .menu ul li a {
+        display:inline-block;
+        color:rgb(238, 238, 238);
+        text-decoration:none;
+        padding:11px; 
+        transition: background .2s;
+    
+    }
 }
